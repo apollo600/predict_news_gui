@@ -29,9 +29,12 @@ python testFastText.py --predict=..\predict_text.txt --model=model\2022-10-15-14
 
 ```shell
 cd Bert
-# 训练&评估
+# 训练
 cd Tasks
-python TaskForSingleSentenceClassification.py
+python TaskForSingleSentenceClassification.py [--train]
+# 评估
+cd Tasks
+python TaskForSingleSentenceClassification.py --eval
 # 推理
 ## 需要使用CPU
 cd ../test
