@@ -1,0 +1,1338 @@
+[2022-10-14 14:21:47] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:21:47] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:21:47] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:21:47] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:21:47] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:21:47] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:21:47] - INFO: ###  device = cpu
+[2022-10-14 14:21:47] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:21:47] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:21:47] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:21:47] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:21:47] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:21:47] - INFO: ###  split_sep = _!_
+[2022-10-14 14:21:47] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:21:47] - INFO: ###  batch_size = 64
+[2022-10-14 14:21:47] - INFO: ###  max_sen_len = None
+[2022-10-14 14:21:47] - INFO: ###  num_labels = 15
+[2022-10-14 14:21:47] - INFO: ###  epochs = 1
+[2022-10-14 14:21:47] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:21:47] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:21:47] - INFO: ###  hidden_size = 768
+[2022-10-14 14:21:47] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:21:47] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:21:47] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:21:47] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:21:47] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:21:47] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:21:47] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:21:47] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:21:47] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:21:47] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:21:47] - INFO: ###  directionality = bidi
+[2022-10-14 14:21:47] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:21:47] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:21:47] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:21:47] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:21:47] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:21:48] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:22:53] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:22:53] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:22:53] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:22:53] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:22:53] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:22:53] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:22:53] - INFO: ###  device = cpu
+[2022-10-14 14:22:53] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:22:53] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:22:53] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:22:53] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:22:53] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:22:53] - INFO: ###  split_sep = _!_
+[2022-10-14 14:22:53] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:22:53] - INFO: ###  batch_size = 64
+[2022-10-14 14:22:53] - INFO: ###  max_sen_len = None
+[2022-10-14 14:22:53] - INFO: ###  num_labels = 15
+[2022-10-14 14:22:53] - INFO: ###  epochs = 1
+[2022-10-14 14:22:53] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:22:53] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:22:53] - INFO: ###  hidden_size = 768
+[2022-10-14 14:22:53] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:22:53] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:22:53] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:22:53] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:22:53] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:22:53] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:22:53] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:22:53] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:22:53] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:22:53] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:22:53] - INFO: ###  directionality = bidi
+[2022-10-14 14:22:53] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:22:53] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:22:53] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:22:53] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:22:53] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:22:54] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:22:55] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:22:55] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:24:05] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:24:05] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:24:05] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:24:05] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:24:05] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:24:05] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:24:05] - INFO: ###  device = cpu
+[2022-10-14 14:24:05] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:24:05] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:24:05] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:24:05] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:24:05] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:24:05] - INFO: ###  split_sep = _!_
+[2022-10-14 14:24:05] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:24:05] - INFO: ###  batch_size = 64
+[2022-10-14 14:24:05] - INFO: ###  max_sen_len = None
+[2022-10-14 14:24:05] - INFO: ###  num_labels = 15
+[2022-10-14 14:24:05] - INFO: ###  epochs = 1
+[2022-10-14 14:24:05] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:24:05] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:24:05] - INFO: ###  hidden_size = 768
+[2022-10-14 14:24:05] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:24:05] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:24:05] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:24:05] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:24:05] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:24:05] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:24:05] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:24:05] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:24:05] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:24:05] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:24:05] - INFO: ###  directionality = bidi
+[2022-10-14 14:24:05] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:24:05] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:24:05] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:24:05] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:24:05] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:24:07] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:24:07] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:24:07] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:24:43] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:24:43] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:24:43] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:24:43] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:24:43] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:24:43] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:24:43] - INFO: ###  device = cpu
+[2022-10-14 14:24:43] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:24:43] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:24:43] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:24:43] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:24:43] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:24:43] - INFO: ###  split_sep = _!_
+[2022-10-14 14:24:43] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:24:43] - INFO: ###  batch_size = 64
+[2022-10-14 14:24:43] - INFO: ###  max_sen_len = None
+[2022-10-14 14:24:43] - INFO: ###  num_labels = 15
+[2022-10-14 14:24:43] - INFO: ###  epochs = 1
+[2022-10-14 14:24:43] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:24:43] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:24:43] - INFO: ###  hidden_size = 768
+[2022-10-14 14:24:43] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:24:43] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:24:43] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:24:43] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:24:43] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:24:43] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:24:43] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:24:43] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:24:43] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:24:43] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:24:43] - INFO: ###  directionality = bidi
+[2022-10-14 14:24:43] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:24:43] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:24:43] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:24:43] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:24:43] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:24:44] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:24:45] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:24:45] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:28:50] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:28:50] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:28:50] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:28:50] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:28:50] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:28:50] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:28:50] - INFO: ###  device = cpu
+[2022-10-14 14:28:50] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:28:50] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:28:50] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:28:50] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:28:50] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:28:50] - INFO: ###  split_sep = _!_
+[2022-10-14 14:28:50] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:28:50] - INFO: ###  batch_size = 64
+[2022-10-14 14:28:50] - INFO: ###  max_sen_len = None
+[2022-10-14 14:28:50] - INFO: ###  num_labels = 15
+[2022-10-14 14:28:50] - INFO: ###  epochs = 1
+[2022-10-14 14:28:50] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:28:50] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:28:50] - INFO: ###  hidden_size = 768
+[2022-10-14 14:28:50] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:28:50] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:28:50] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:28:50] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:28:50] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:28:50] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:28:50] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:28:50] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:28:50] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:28:50] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:28:50] - INFO: ###  directionality = bidi
+[2022-10-14 14:28:50] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:28:50] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:28:50] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:28:50] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:28:50] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:28:51] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:28:52] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:28:52] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:28:59] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:28:59] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:28:59] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:28:59] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:28:59] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:28:59] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:28:59] - INFO: ###  device = cpu
+[2022-10-14 14:28:59] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:28:59] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:28:59] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:28:59] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:28:59] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:28:59] - INFO: ###  split_sep = _!_
+[2022-10-14 14:28:59] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:28:59] - INFO: ###  batch_size = 64
+[2022-10-14 14:28:59] - INFO: ###  max_sen_len = None
+[2022-10-14 14:28:59] - INFO: ###  num_labels = 15
+[2022-10-14 14:28:59] - INFO: ###  epochs = 1
+[2022-10-14 14:28:59] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:28:59] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:28:59] - INFO: ###  hidden_size = 768
+[2022-10-14 14:28:59] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:28:59] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:28:59] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:28:59] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:28:59] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:28:59] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:28:59] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:28:59] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:28:59] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:28:59] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:28:59] - INFO: ###  directionality = bidi
+[2022-10-14 14:28:59] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:28:59] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:28:59] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:28:59] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:28:59] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:29:00] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:29:00] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:29:00] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:30:03] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:30:03] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:30:03] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:30:03] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:30:03] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:30:03] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:30:03] - INFO: ###  device = cpu
+[2022-10-14 14:30:03] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:30:03] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:30:03] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:30:03] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:30:03] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:30:03] - INFO: ###  split_sep = _!_
+[2022-10-14 14:30:03] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:30:03] - INFO: ###  batch_size = 64
+[2022-10-14 14:30:03] - INFO: ###  max_sen_len = None
+[2022-10-14 14:30:03] - INFO: ###  num_labels = 15
+[2022-10-14 14:30:03] - INFO: ###  epochs = 1
+[2022-10-14 14:30:03] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:30:03] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:30:03] - INFO: ###  hidden_size = 768
+[2022-10-14 14:30:03] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:30:03] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:30:03] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:30:03] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:30:03] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:30:03] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:30:03] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:30:03] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:30:03] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:30:03] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:30:03] - INFO: ###  directionality = bidi
+[2022-10-14 14:30:03] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:30:03] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:30:03] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:30:03] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:30:03] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:30:04] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:30:05] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:30:05] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:31:58] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:31:58] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:31:58] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:31:58] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:31:58] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:31:58] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:31:58] - INFO: ###  device = cpu
+[2022-10-14 14:31:58] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:31:58] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:31:58] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:31:58] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:31:58] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:31:58] - INFO: ###  split_sep = _!_
+[2022-10-14 14:31:58] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:31:58] - INFO: ###  batch_size = 64
+[2022-10-14 14:31:58] - INFO: ###  max_sen_len = None
+[2022-10-14 14:31:58] - INFO: ###  num_labels = 15
+[2022-10-14 14:31:58] - INFO: ###  epochs = 1
+[2022-10-14 14:31:58] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:31:58] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:31:58] - INFO: ###  hidden_size = 768
+[2022-10-14 14:31:58] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:31:58] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:31:58] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:31:58] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:31:58] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:31:58] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:31:58] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:31:58] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:31:58] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:31:58] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:31:58] - INFO: ###  directionality = bidi
+[2022-10-14 14:31:58] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:31:58] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:31:58] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:31:58] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:31:58] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:31:59] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:31:59] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:31:59] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:54:21] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:54:21] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:54:21] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:54:21] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:54:21] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:54:21] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:54:21] - INFO: ###  device = cpu
+[2022-10-14 14:54:21] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:54:21] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:54:21] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:54:21] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:54:21] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:54:21] - INFO: ###  split_sep = _!_
+[2022-10-14 14:54:21] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:54:21] - INFO: ###  batch_size = 64
+[2022-10-14 14:54:21] - INFO: ###  max_sen_len = None
+[2022-10-14 14:54:21] - INFO: ###  num_labels = 15
+[2022-10-14 14:54:21] - INFO: ###  epochs = 1
+[2022-10-14 14:54:21] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:54:21] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:54:21] - INFO: ###  hidden_size = 768
+[2022-10-14 14:54:21] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:54:21] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:54:21] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:54:21] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:54:21] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:54:21] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:54:21] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:54:21] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:54:21] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:54:21] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:54:21] - INFO: ###  directionality = bidi
+[2022-10-14 14:54:21] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:54:21] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:54:21] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:54:21] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:54:21] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:54:23] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:54:23] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:54:23] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:56:15] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:56:15] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:56:15] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:56:15] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:56:15] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:56:15] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:56:15] - INFO: ###  device = cpu
+[2022-10-14 14:56:15] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:56:15] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:56:15] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:56:15] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:56:15] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:56:15] - INFO: ###  split_sep = _!_
+[2022-10-14 14:56:15] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:56:15] - INFO: ###  batch_size = 64
+[2022-10-14 14:56:15] - INFO: ###  max_sen_len = None
+[2022-10-14 14:56:15] - INFO: ###  num_labels = 15
+[2022-10-14 14:56:15] - INFO: ###  epochs = 1
+[2022-10-14 14:56:15] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:56:15] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:56:15] - INFO: ###  hidden_size = 768
+[2022-10-14 14:56:15] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:56:15] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:56:15] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:56:15] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:56:15] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:56:15] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:56:15] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:56:15] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:56:15] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:56:15] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:56:15] - INFO: ###  directionality = bidi
+[2022-10-14 14:56:15] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:56:15] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:56:15] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:56:15] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:56:15] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:56:17] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:56:18] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:56:18] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:57:32] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:57:32] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:57:32] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:57:32] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:57:32] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:57:32] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:57:32] - INFO: ###  device = cpu
+[2022-10-14 14:57:32] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:57:32] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:57:32] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:57:32] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:57:32] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:57:32] - INFO: ###  split_sep = _!_
+[2022-10-14 14:57:32] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:57:32] - INFO: ###  batch_size = 64
+[2022-10-14 14:57:32] - INFO: ###  max_sen_len = None
+[2022-10-14 14:57:32] - INFO: ###  num_labels = 15
+[2022-10-14 14:57:32] - INFO: ###  epochs = 1
+[2022-10-14 14:57:32] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:57:32] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:57:32] - INFO: ###  hidden_size = 768
+[2022-10-14 14:57:32] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:57:32] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:57:32] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:57:32] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:57:32] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:57:32] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:57:32] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:57:32] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:57:32] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:57:32] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:57:32] - INFO: ###  directionality = bidi
+[2022-10-14 14:57:32] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:57:32] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:57:32] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:57:32] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:57:32] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:57:33] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:57:33] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:57:33] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:57:38] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:57:38] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:57:38] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:57:38] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:57:38] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:57:38] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:57:38] - INFO: ###  device = cpu
+[2022-10-14 14:57:38] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:57:38] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:57:38] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:57:38] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:57:38] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:57:38] - INFO: ###  split_sep = _!_
+[2022-10-14 14:57:38] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:57:38] - INFO: ###  batch_size = 64
+[2022-10-14 14:57:38] - INFO: ###  max_sen_len = None
+[2022-10-14 14:57:38] - INFO: ###  num_labels = 15
+[2022-10-14 14:57:38] - INFO: ###  epochs = 1
+[2022-10-14 14:57:38] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:57:38] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:57:38] - INFO: ###  hidden_size = 768
+[2022-10-14 14:57:38] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:57:38] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:57:38] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:57:38] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:57:38] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:57:38] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:57:38] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:57:38] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:57:38] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:57:38] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:57:38] - INFO: ###  directionality = bidi
+[2022-10-14 14:57:38] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:57:38] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:57:38] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:57:38] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:57:38] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:57:40] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:57:40] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:57:40] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 14:59:54] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 14:59:54] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 14:59:54] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 14:59:54] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 14:59:54] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 14:59:54] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 14:59:54] - INFO: ###  device = cpu
+[2022-10-14 14:59:54] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 14:59:54] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 14:59:54] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 14:59:54] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 14:59:54] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 14:59:54] - INFO: ###  split_sep = _!_
+[2022-10-14 14:59:54] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 14:59:54] - INFO: ###  batch_size = 64
+[2022-10-14 14:59:54] - INFO: ###  max_sen_len = None
+[2022-10-14 14:59:54] - INFO: ###  num_labels = 15
+[2022-10-14 14:59:54] - INFO: ###  epochs = 1
+[2022-10-14 14:59:54] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 14:59:54] - INFO: ###  vocab_size = 21128
+[2022-10-14 14:59:54] - INFO: ###  hidden_size = 768
+[2022-10-14 14:59:54] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 14:59:54] - INFO: ###  num_attention_heads = 12
+[2022-10-14 14:59:54] - INFO: ###  hidden_act = gelu
+[2022-10-14 14:59:54] - INFO: ###  intermediate_size = 3072
+[2022-10-14 14:59:54] - INFO: ###  pad_token_id = 0
+[2022-10-14 14:59:54] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 14:59:54] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 14:59:54] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 14:59:54] - INFO: ###  type_vocab_size = 2
+[2022-10-14 14:59:54] - INFO: ###  initializer_range = 0.02
+[2022-10-14 14:59:54] - INFO: ###  directionality = bidi
+[2022-10-14 14:59:54] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 14:59:54] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 14:59:54] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 14:59:54] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 14:59:54] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 14:59:55] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 14:59:55] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 14:59:56] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:01:03] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:01:03] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:01:03] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:01:03] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:01:03] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:01:03] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:01:03] - INFO: ###  device = cpu
+[2022-10-14 15:01:03] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:01:03] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:01:03] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:01:03] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:01:03] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:01:03] - INFO: ###  split_sep = _!_
+[2022-10-14 15:01:03] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:01:03] - INFO: ###  batch_size = 64
+[2022-10-14 15:01:03] - INFO: ###  max_sen_len = None
+[2022-10-14 15:01:03] - INFO: ###  num_labels = 15
+[2022-10-14 15:01:03] - INFO: ###  epochs = 1
+[2022-10-14 15:01:03] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:01:03] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:01:03] - INFO: ###  hidden_size = 768
+[2022-10-14 15:01:03] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:01:03] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:01:03] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:01:03] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:01:03] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:01:03] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:01:03] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:01:03] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:01:03] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:01:03] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:01:03] - INFO: ###  directionality = bidi
+[2022-10-14 15:01:03] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:01:03] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:01:03] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:01:03] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:01:03] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:01:04] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:01:04] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:01:04] - INFO: 缓存文件 predict_text_None.pt 存在，直接载入缓存文件！
+[2022-10-14 15:02:03] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:02:03] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:02:03] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:02:03] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:02:03] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:02:03] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:02:03] - INFO: ###  device = cpu
+[2022-10-14 15:02:03] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:02:03] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:02:03] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:02:03] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:02:03] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:02:03] - INFO: ###  split_sep = _!_
+[2022-10-14 15:02:03] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:02:03] - INFO: ###  batch_size = 64
+[2022-10-14 15:02:03] - INFO: ###  max_sen_len = None
+[2022-10-14 15:02:03] - INFO: ###  num_labels = 15
+[2022-10-14 15:02:03] - INFO: ###  epochs = 1
+[2022-10-14 15:02:03] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:02:03] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:02:03] - INFO: ###  hidden_size = 768
+[2022-10-14 15:02:03] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:02:03] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:02:03] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:02:03] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:02:03] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:02:03] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:02:03] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:02:03] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:02:03] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:02:03] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:02:03] - INFO: ###  directionality = bidi
+[2022-10-14 15:02:03] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:02:03] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:02:03] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:02:03] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:02:03] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:02:04] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:02:05] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:02:05] - INFO: 缓存文件 predict_text_None.pt 存在，直接载入缓存文件！
+[2022-10-14 15:02:26] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:02:26] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:02:26] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:02:26] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:02:26] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:02:26] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:02:26] - INFO: ###  device = cpu
+[2022-10-14 15:02:26] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:02:26] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:02:26] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:02:26] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:02:26] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:02:26] - INFO: ###  split_sep = _!_
+[2022-10-14 15:02:26] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:02:26] - INFO: ###  batch_size = 64
+[2022-10-14 15:02:26] - INFO: ###  max_sen_len = None
+[2022-10-14 15:02:26] - INFO: ###  num_labels = 15
+[2022-10-14 15:02:26] - INFO: ###  epochs = 1
+[2022-10-14 15:02:26] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:02:26] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:02:26] - INFO: ###  hidden_size = 768
+[2022-10-14 15:02:26] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:02:26] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:02:26] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:02:26] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:02:26] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:02:26] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:02:26] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:02:26] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:02:26] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:02:26] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:02:26] - INFO: ###  directionality = bidi
+[2022-10-14 15:02:26] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:02:26] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:02:26] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:02:26] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:02:26] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:02:28] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:02:28] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:02:28] - INFO: 缓存文件 predict_text_None.pt 存在，直接载入缓存文件！
+[2022-10-14 15:02:34] - DEBUG: Building prefix dict from the default dictionary ...
+[2022-10-14 15:02:34] - DEBUG: Loading model from cache C:\Users\mys\AppData\Local\Temp\jieba.cache
+[2022-10-14 15:02:34] - DEBUG: Loading model cost 0.645 seconds.
+[2022-10-14 15:02:34] - DEBUG: Prefix dict has been built successfully.
+[2022-10-14 15:02:48] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:02:48] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:02:48] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:02:48] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:02:48] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:02:48] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:02:48] - INFO: ###  device = cpu
+[2022-10-14 15:02:48] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:02:48] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:02:48] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:02:48] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:02:48] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:02:48] - INFO: ###  split_sep = _!_
+[2022-10-14 15:02:48] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:02:48] - INFO: ###  batch_size = 64
+[2022-10-14 15:02:48] - INFO: ###  max_sen_len = None
+[2022-10-14 15:02:48] - INFO: ###  num_labels = 15
+[2022-10-14 15:02:48] - INFO: ###  epochs = 1
+[2022-10-14 15:02:48] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:02:48] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:02:48] - INFO: ###  hidden_size = 768
+[2022-10-14 15:02:48] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:02:48] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:02:48] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:02:48] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:02:48] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:02:48] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:02:48] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:02:48] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:02:48] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:02:48] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:02:48] - INFO: ###  directionality = bidi
+[2022-10-14 15:02:48] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:02:48] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:02:48] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:02:48] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:02:48] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:02:49] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:02:49] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:02:50] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:03:06] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:03:06] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:03:06] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:03:06] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:03:06] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:03:06] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:03:06] - INFO: ###  device = cpu
+[2022-10-14 15:03:06] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:03:06] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:03:06] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:03:06] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:03:06] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:03:06] - INFO: ###  split_sep = _!_
+[2022-10-14 15:03:06] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:03:06] - INFO: ###  batch_size = 64
+[2022-10-14 15:03:06] - INFO: ###  max_sen_len = None
+[2022-10-14 15:03:06] - INFO: ###  num_labels = 15
+[2022-10-14 15:03:06] - INFO: ###  epochs = 1
+[2022-10-14 15:03:06] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:03:06] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:03:06] - INFO: ###  hidden_size = 768
+[2022-10-14 15:03:06] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:03:06] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:03:06] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:03:06] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:03:06] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:03:06] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:03:06] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:03:06] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:03:06] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:03:06] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:03:06] - INFO: ###  directionality = bidi
+[2022-10-14 15:03:06] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:03:06] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:03:06] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:03:06] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:03:06] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:03:07] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:03:08] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:03:08] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:03:55] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:03:55] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:03:55] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:03:55] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:03:55] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:03:55] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:03:55] - INFO: ###  device = cpu
+[2022-10-14 15:03:55] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:03:55] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:03:55] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:03:55] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:03:55] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:03:55] - INFO: ###  split_sep = _!_
+[2022-10-14 15:03:55] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:03:55] - INFO: ###  batch_size = 64
+[2022-10-14 15:03:55] - INFO: ###  max_sen_len = None
+[2022-10-14 15:03:55] - INFO: ###  num_labels = 15
+[2022-10-14 15:03:55] - INFO: ###  epochs = 1
+[2022-10-14 15:03:55] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:03:55] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:03:55] - INFO: ###  hidden_size = 768
+[2022-10-14 15:03:55] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:03:55] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:03:55] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:03:55] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:03:55] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:03:55] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:03:55] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:03:55] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:03:55] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:03:55] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:03:55] - INFO: ###  directionality = bidi
+[2022-10-14 15:03:55] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:03:55] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:03:55] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:03:55] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:03:55] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:03:56] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:03:56] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:03:56] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:04:00] - DEBUG: Building prefix dict from the default dictionary ...
+[2022-10-14 15:04:00] - DEBUG: Loading model from cache C:\Users\mys\AppData\Local\Temp\jieba.cache
+[2022-10-14 15:04:01] - DEBUG: Loading model cost 0.656 seconds.
+[2022-10-14 15:04:01] - DEBUG: Prefix dict has been built successfully.
+[2022-10-14 15:04:04] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:04:04] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:04:04] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:04:04] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:04:04] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:04:04] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:04:04] - INFO: ###  device = cpu
+[2022-10-14 15:04:04] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:04:04] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:04:04] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:04:04] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:04:04] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:04:04] - INFO: ###  split_sep = _!_
+[2022-10-14 15:04:04] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:04:04] - INFO: ###  batch_size = 64
+[2022-10-14 15:04:04] - INFO: ###  max_sen_len = None
+[2022-10-14 15:04:04] - INFO: ###  num_labels = 15
+[2022-10-14 15:04:04] - INFO: ###  epochs = 1
+[2022-10-14 15:04:04] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:04:04] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:04:04] - INFO: ###  hidden_size = 768
+[2022-10-14 15:04:04] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:04:04] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:04:04] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:04:04] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:04:04] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:04:04] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:04:04] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:04:04] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:04:04] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:04:04] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:04:04] - INFO: ###  directionality = bidi
+[2022-10-14 15:04:04] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:04:04] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:04:04] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:04:04] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:04:04] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:04:05] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:04:06] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:04:06] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:04:17] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:04:17] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:04:17] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:04:17] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:04:17] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:04:17] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:04:17] - INFO: ###  device = cpu
+[2022-10-14 15:04:17] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:04:17] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:04:17] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:04:17] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:04:17] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:04:17] - INFO: ###  split_sep = _!_
+[2022-10-14 15:04:17] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:04:17] - INFO: ###  batch_size = 64
+[2022-10-14 15:04:17] - INFO: ###  max_sen_len = None
+[2022-10-14 15:04:17] - INFO: ###  num_labels = 15
+[2022-10-14 15:04:17] - INFO: ###  epochs = 1
+[2022-10-14 15:04:17] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:04:17] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:04:17] - INFO: ###  hidden_size = 768
+[2022-10-14 15:04:17] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:04:17] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:04:17] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:04:17] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:04:17] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:04:17] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:04:17] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:04:17] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:04:17] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:04:17] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:04:17] - INFO: ###  directionality = bidi
+[2022-10-14 15:04:17] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:04:17] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:04:17] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:04:17] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:04:17] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:04:18] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:04:18] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:04:18] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:04:43] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:04:43] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:04:43] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:04:43] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:04:43] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:04:43] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:04:43] - INFO: ###  device = cpu
+[2022-10-14 15:04:43] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:04:43] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:04:43] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:04:43] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:04:43] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:04:43] - INFO: ###  split_sep = _!_
+[2022-10-14 15:04:43] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:04:43] - INFO: ###  batch_size = 64
+[2022-10-14 15:04:43] - INFO: ###  max_sen_len = None
+[2022-10-14 15:04:43] - INFO: ###  num_labels = 15
+[2022-10-14 15:04:43] - INFO: ###  epochs = 1
+[2022-10-14 15:04:43] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:04:43] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:04:43] - INFO: ###  hidden_size = 768
+[2022-10-14 15:04:43] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:04:43] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:04:43] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:04:43] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:04:43] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:04:43] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:04:43] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:04:43] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:04:43] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:04:43] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:04:43] - INFO: ###  directionality = bidi
+[2022-10-14 15:04:43] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:04:43] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:04:43] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:04:43] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:04:43] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:04:45] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:04:45] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:04:45] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:05:22] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:05:22] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:05:22] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:05:22] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:05:22] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:05:22] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:05:22] - INFO: ###  device = cpu
+[2022-10-14 15:05:22] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:05:22] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:05:22] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:05:22] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:05:22] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:05:22] - INFO: ###  split_sep = _!_
+[2022-10-14 15:05:22] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:05:22] - INFO: ###  batch_size = 64
+[2022-10-14 15:05:22] - INFO: ###  max_sen_len = None
+[2022-10-14 15:05:22] - INFO: ###  num_labels = 15
+[2022-10-14 15:05:22] - INFO: ###  epochs = 1
+[2022-10-14 15:05:22] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:05:22] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:05:22] - INFO: ###  hidden_size = 768
+[2022-10-14 15:05:22] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:05:22] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:05:22] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:05:22] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:05:22] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:05:22] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:05:22] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:05:22] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:05:22] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:05:22] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:05:22] - INFO: ###  directionality = bidi
+[2022-10-14 15:05:22] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:05:22] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:05:22] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:05:22] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:05:22] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:05:23] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:05:24] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:05:24] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:05:27] - DEBUG: Building prefix dict from the default dictionary ...
+[2022-10-14 15:05:27] - DEBUG: Loading model from cache C:\Users\mys\AppData\Local\Temp\jieba.cache
+[2022-10-14 15:05:28] - DEBUG: Loading model cost 0.641 seconds.
+[2022-10-14 15:05:28] - DEBUG: Prefix dict has been built successfully.
+[2022-10-14 15:05:36] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:05:36] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:05:36] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:05:36] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:05:36] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:05:36] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:05:36] - INFO: ###  device = cpu
+[2022-10-14 15:05:36] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:05:36] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:05:36] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:05:36] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:05:36] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:05:36] - INFO: ###  split_sep = _!_
+[2022-10-14 15:05:36] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:05:36] - INFO: ###  batch_size = 64
+[2022-10-14 15:05:36] - INFO: ###  max_sen_len = None
+[2022-10-14 15:05:36] - INFO: ###  num_labels = 15
+[2022-10-14 15:05:36] - INFO: ###  epochs = 1
+[2022-10-14 15:05:36] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:05:36] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:05:36] - INFO: ###  hidden_size = 768
+[2022-10-14 15:05:36] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:05:36] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:05:36] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:05:36] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:05:36] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:05:36] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:05:36] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:05:36] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:05:36] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:05:36] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:05:36] - INFO: ###  directionality = bidi
+[2022-10-14 15:05:36] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:05:36] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:05:36] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:05:36] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:05:36] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:05:37] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:05:37] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:05:37] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:05:42] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:05:42] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:05:42] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:05:42] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:05:42] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:05:42] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:05:42] - INFO: ###  device = cpu
+[2022-10-14 15:05:42] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:05:42] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:05:42] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:05:42] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:05:42] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:05:42] - INFO: ###  split_sep = _!_
+[2022-10-14 15:05:42] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:05:42] - INFO: ###  batch_size = 64
+[2022-10-14 15:05:42] - INFO: ###  max_sen_len = None
+[2022-10-14 15:05:42] - INFO: ###  num_labels = 15
+[2022-10-14 15:05:42] - INFO: ###  epochs = 1
+[2022-10-14 15:05:42] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:05:42] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:05:42] - INFO: ###  hidden_size = 768
+[2022-10-14 15:05:42] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:05:42] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:05:42] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:05:42] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:05:42] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:05:42] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:05:42] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:05:42] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:05:42] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:05:42] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:05:42] - INFO: ###  directionality = bidi
+[2022-10-14 15:05:42] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:05:42] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:05:42] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:05:42] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:05:42] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:05:43] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:05:43] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:05:43] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:17:12] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:17:12] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:17:12] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:17:12] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:17:12] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:17:12] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:17:12] - INFO: ###  device = cpu
+[2022-10-14 15:17:12] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:17:12] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:17:12] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:17:12] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:17:12] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:17:12] - INFO: ###  split_sep = _!_
+[2022-10-14 15:17:12] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:17:12] - INFO: ###  batch_size = 64
+[2022-10-14 15:17:12] - INFO: ###  max_sen_len = None
+[2022-10-14 15:17:12] - INFO: ###  num_labels = 15
+[2022-10-14 15:17:12] - INFO: ###  epochs = 1
+[2022-10-14 15:17:12] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:17:12] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:17:12] - INFO: ###  hidden_size = 768
+[2022-10-14 15:17:12] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:17:12] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:17:12] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:17:12] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:17:12] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:17:12] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:17:12] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:17:12] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:17:12] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:17:12] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:17:12] - INFO: ###  directionality = bidi
+[2022-10-14 15:17:12] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:17:12] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:17:12] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:17:12] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:17:12] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:17:14] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:17:14] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:17:14] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:18:40] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:18:40] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:18:40] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:18:40] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:18:40] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:18:40] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:18:40] - INFO: ###  device = cpu
+[2022-10-14 15:18:40] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:18:40] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:18:40] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:18:40] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:18:40] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:18:40] - INFO: ###  split_sep = _!_
+[2022-10-14 15:18:40] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:18:40] - INFO: ###  batch_size = 64
+[2022-10-14 15:18:40] - INFO: ###  max_sen_len = None
+[2022-10-14 15:18:40] - INFO: ###  num_labels = 15
+[2022-10-14 15:18:40] - INFO: ###  epochs = 1
+[2022-10-14 15:18:40] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:18:40] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:18:40] - INFO: ###  hidden_size = 768
+[2022-10-14 15:18:40] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:18:40] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:18:40] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:18:40] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:18:40] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:18:40] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:18:40] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:18:40] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:18:40] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:18:40] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:18:40] - INFO: ###  directionality = bidi
+[2022-10-14 15:18:40] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:18:40] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:18:40] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:18:40] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:18:40] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:18:42] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:18:42] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:18:42] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:22:47] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:22:47] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:22:47] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:22:47] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:22:47] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:22:47] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:22:47] - INFO: ###  device = cpu
+[2022-10-14 15:22:47] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:22:47] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:22:47] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:22:47] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:22:47] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:22:47] - INFO: ###  split_sep = _!_
+[2022-10-14 15:22:47] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:22:47] - INFO: ###  batch_size = 64
+[2022-10-14 15:22:47] - INFO: ###  max_sen_len = None
+[2022-10-14 15:22:47] - INFO: ###  num_labels = 15
+[2022-10-14 15:22:47] - INFO: ###  epochs = 1
+[2022-10-14 15:22:47] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:22:47] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:22:47] - INFO: ###  hidden_size = 768
+[2022-10-14 15:22:47] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:22:47] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:22:47] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:22:47] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:22:47] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:22:47] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:22:47] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:22:47] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:22:47] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:22:47] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:22:47] - INFO: ###  directionality = bidi
+[2022-10-14 15:22:47] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:22:47] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:22:47] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:22:47] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:22:47] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:22:48] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:22:48] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:22:48] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:23:32] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:23:32] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:23:32] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:23:32] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:23:32] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:23:32] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:23:32] - INFO: ###  device = cpu
+[2022-10-14 15:23:32] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:23:32] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:23:32] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:23:32] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:23:32] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:23:32] - INFO: ###  split_sep = _!_
+[2022-10-14 15:23:32] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:23:32] - INFO: ###  batch_size = 64
+[2022-10-14 15:23:32] - INFO: ###  max_sen_len = None
+[2022-10-14 15:23:32] - INFO: ###  num_labels = 15
+[2022-10-14 15:23:32] - INFO: ###  epochs = 1
+[2022-10-14 15:23:32] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:23:32] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:23:32] - INFO: ###  hidden_size = 768
+[2022-10-14 15:23:32] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:23:32] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:23:32] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:23:32] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:23:32] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:23:32] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:23:32] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:23:32] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:23:32] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:23:32] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:23:32] - INFO: ###  directionality = bidi
+[2022-10-14 15:23:32] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:23:32] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:23:32] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:23:32] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:23:32] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:23:33] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:23:34] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:23:34] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:26:43] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:26:43] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:26:43] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:26:43] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:26:43] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:26:43] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:26:43] - INFO: ###  device = cpu
+[2022-10-14 15:26:43] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:26:43] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:26:43] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:26:43] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:26:43] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:26:43] - INFO: ###  split_sep = _!_
+[2022-10-14 15:26:43] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:26:43] - INFO: ###  batch_size = 64
+[2022-10-14 15:26:43] - INFO: ###  max_sen_len = None
+[2022-10-14 15:26:43] - INFO: ###  num_labels = 15
+[2022-10-14 15:26:43] - INFO: ###  epochs = 1
+[2022-10-14 15:26:43] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:26:43] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:26:43] - INFO: ###  hidden_size = 768
+[2022-10-14 15:26:43] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:26:43] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:26:43] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:26:43] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:26:43] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:26:43] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:26:43] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:26:43] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:26:43] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:26:43] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:26:43] - INFO: ###  directionality = bidi
+[2022-10-14 15:26:43] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:26:43] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:26:43] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:26:43] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:26:43] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:26:44] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:26:45] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:26:45] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:30:50] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:30:50] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:30:50] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:30:50] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:30:50] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:30:50] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:30:50] - INFO: ###  device = cpu
+[2022-10-14 15:30:50] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:30:50] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:30:50] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:30:50] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:30:50] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:30:50] - INFO: ###  split_sep = _!_
+[2022-10-14 15:30:50] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:30:50] - INFO: ###  batch_size = 64
+[2022-10-14 15:30:50] - INFO: ###  max_sen_len = None
+[2022-10-14 15:30:50] - INFO: ###  num_labels = 15
+[2022-10-14 15:30:50] - INFO: ###  epochs = 1
+[2022-10-14 15:30:50] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:30:50] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:30:50] - INFO: ###  hidden_size = 768
+[2022-10-14 15:30:50] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:30:50] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:30:50] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:30:50] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:30:50] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:30:50] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:30:50] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:30:50] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:30:50] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:30:50] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:30:50] - INFO: ###  directionality = bidi
+[2022-10-14 15:30:50] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:30:50] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:30:50] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:30:50] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:30:50] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:30:52] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:30:52] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:30:52] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:31:01] - DEBUG: Building prefix dict from the default dictionary ...
+[2022-10-14 15:31:01] - DEBUG: Loading model from cache C:\Users\mys\AppData\Local\Temp\jieba.cache
+[2022-10-14 15:31:01] - DEBUG: Loading model cost 0.671 seconds.
+[2022-10-14 15:31:01] - DEBUG: Prefix dict has been built successfully.
+[2022-10-14 15:36:33] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:36:33] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:36:33] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:36:33] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:36:33] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:36:33] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:36:33] - INFO: ###  device = cpu
+[2022-10-14 15:36:33] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:36:33] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:36:33] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:36:33] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:36:33] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:36:33] - INFO: ###  split_sep = _!_
+[2022-10-14 15:36:33] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:36:33] - INFO: ###  batch_size = 64
+[2022-10-14 15:36:33] - INFO: ###  max_sen_len = None
+[2022-10-14 15:36:33] - INFO: ###  num_labels = 15
+[2022-10-14 15:36:33] - INFO: ###  epochs = 1
+[2022-10-14 15:36:33] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:36:33] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:36:33] - INFO: ###  hidden_size = 768
+[2022-10-14 15:36:33] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:36:33] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:36:33] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:36:33] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:36:33] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:36:33] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:36:33] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:36:33] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:36:33] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:36:33] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:36:33] - INFO: ###  directionality = bidi
+[2022-10-14 15:36:33] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:36:33] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:36:33] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:36:33] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:36:33] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:36:34] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:36:34] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:36:34] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:37:09] - INFO: 成功导入BERT配置文件 F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\config.json
+[2022-10-14 15:37:09] - INFO:  ### 将当前配置打印到日志文件中 
+[2022-10-14 15:37:09] - INFO: ###  project_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert
+[2022-10-14 15:37:09] - INFO: ###  dataset_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification
+[2022-10-14 15:37:09] - INFO: ###  pretrained_model_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese
+[2022-10-14 15:37:09] - INFO: ###  vocab_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\bert_base_chinese\vocab.txt
+[2022-10-14 15:37:09] - INFO: ###  device = cpu
+[2022-10-14 15:37:09] - INFO: ###  train_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_train.txt
+[2022-10-14 15:37:09] - INFO: ###  val_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_val.txt
+[2022-10-14 15:37:09] - INFO: ###  test_file_path = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\data\SingleSentenceClassification\toutiao_test.txt
+[2022-10-14 15:37:09] - INFO: ###  model_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\cache
+[2022-10-14 15:37:09] - INFO: ###  logs_save_dir = F:\Desktop\自然语言处理大作业\src\predict_gui\Bert\logs
+[2022-10-14 15:37:09] - INFO: ###  split_sep = _!_
+[2022-10-14 15:37:09] - INFO: ###  is_sample_shuffle = True
+[2022-10-14 15:37:09] - INFO: ###  batch_size = 64
+[2022-10-14 15:37:09] - INFO: ###  max_sen_len = None
+[2022-10-14 15:37:09] - INFO: ###  num_labels = 15
+[2022-10-14 15:37:09] - INFO: ###  epochs = 1
+[2022-10-14 15:37:09] - INFO: ###  model_val_per_epoch = 2
+[2022-10-14 15:37:09] - INFO: ###  vocab_size = 21128
+[2022-10-14 15:37:09] - INFO: ###  hidden_size = 768
+[2022-10-14 15:37:09] - INFO: ###  num_hidden_layers = 12
+[2022-10-14 15:37:09] - INFO: ###  num_attention_heads = 12
+[2022-10-14 15:37:09] - INFO: ###  hidden_act = gelu
+[2022-10-14 15:37:09] - INFO: ###  intermediate_size = 3072
+[2022-10-14 15:37:09] - INFO: ###  pad_token_id = 0
+[2022-10-14 15:37:09] - INFO: ###  hidden_dropout_prob = 0.1
+[2022-10-14 15:37:09] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2022-10-14 15:37:09] - INFO: ###  max_position_embeddings = 512
+[2022-10-14 15:37:09] - INFO: ###  type_vocab_size = 2
+[2022-10-14 15:37:09] - INFO: ###  initializer_range = 0.02
+[2022-10-14 15:37:09] - INFO: ###  directionality = bidi
+[2022-10-14 15:37:09] - INFO: ###  pooler_fc_size = 768
+[2022-10-14 15:37:09] - INFO: ###  pooler_num_attention_heads = 12
+[2022-10-14 15:37:09] - INFO: ###  pooler_num_fc_layers = 3
+[2022-10-14 15:37:09] - INFO: ###  pooler_size_per_head = 128
+[2022-10-14 15:37:09] - INFO: ###  pooler_type = first_token_transform
+[2022-10-14 15:37:10] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2022-10-14 15:37:10] - INFO: ## 成功载入已有模型，进行预测......
+[2022-10-14 15:37:11] - INFO: 缓存文件 predict_text_None.pt 不存在，重新处理并缓存！
+[2022-10-14 15:37:17] - DEBUG: Building prefix dict from the default dictionary ...
+[2022-10-14 15:37:17] - DEBUG: Loading model from cache C:\Users\mys\AppData\Local\Temp\jieba.cache
+[2022-10-14 15:37:17] - DEBUG: Loading model cost 0.691 seconds.
+[2022-10-14 15:37:17] - DEBUG: Prefix dict has been built successfully.
