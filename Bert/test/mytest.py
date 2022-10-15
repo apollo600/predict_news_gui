@@ -69,7 +69,9 @@ def evaluate(data_iter, model, device, PAD_IDX):
 
 
 if __name__ == "__main__":
+    # 读取参数
     config = ModelConfig()
+    # 读取模型
     model = BertForSentenceClassification(config,
                                           config.pretrained_model_dir)
     model_save_path = os.path.join(config.model_save_dir, 'model.pt')
@@ -78,6 +80,7 @@ if __name__ == "__main__":
         model.load_state_dict(loaded_paras)
         logging.info("## 成功载入已有模型，进行预测......")
     model = model.to(config.device)
+    # 读取预测文本
     data_loader = LoadSingleSentenceClassificationDataset(vocab_path=config.vocab_path,
                                                           tokenizer=BertTokenizer.from_pretrained(
                                                               config.pretrained_model_dir).tokenize,
@@ -87,10 +90,8 @@ if __name__ == "__main__":
                                                           max_position_embeddings=config.max_position_embeddings,
                                                           pad_index=config.pad_token_id,
                                                           is_sample_shuffle=config.is_sample_shuffle)
-    # train_iter, test_iter, val_iter = data_loader.load_train_val_test_data(config.train_file_path,
-    #                                                                        config.val_file_path,
-    #                                                                        config.test_file_path)
-    # 只读一句话，而不是读测试集
     test_iter = data_loader.load_one_data("predict.txt")
+    # 进行预测
     evaluate(test_iter, model, device=config.device, PAD_IDX=data_loader.PAD_IDX)
+    # 删除缓存文件
     os.remove("predict_None.pt")

@@ -10,6 +10,7 @@ import logging
 import torch
 import os
 import time
+import argparse
 
 
 class ModelConfig:
@@ -143,6 +144,13 @@ def evaluate(data_iter, model, device, PAD_IDX):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Bert for text classification')
+    parser.add_argument("--train", action='store_true')
+    parser.add_argument("--eval", action='store_true')
+    args = parser.parse_args()
     model_config = ModelConfig()
-    # train(model_config)
-    inference(model_config)
+    if args.eval:
+        inference(model_config)
+    else:
+        train(model_config)
+        inference(model_config)
